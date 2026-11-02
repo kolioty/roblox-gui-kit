@@ -15,6 +15,7 @@
   <a href="https://github.com/kolioty/roblox-gui-kit/forks"><img src="https://img.shields.io/github/forks/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Forks"></a>
   <a href="https://github.com/kolioty/roblox-gui-kit/commits/main"><img src="https://img.shields.io/github/last-commit/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Último commit"></a>
   <a href="https://github.com/kolioty/roblox-gui-kit"><img src="https://img.shields.io/github/repo-size/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Tamaño"></a>
+  <a href="https://github.com/kolioty/roblox-gui-kit/graphs/contributors"><img src="https://img.shields.io/github/contributors/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Contributors"></a>
   <a href="https://github.com/kolioty/roblox-gui-kit/issues"><img src="https://img.shields.io/github/issues/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Issues"></a>
 </p>
 
@@ -46,6 +47,7 @@
   <a href="#reglas-medidas">Reglas</a> •
   <a href="#documentación">Documentación</a> •
   <a href="#solución-de-problemas">Problemas</a> •
+  <a href="#contributors">Contributors</a> •
   <a href="#créditos">Créditos</a>
 </p>
 
@@ -181,6 +183,26 @@ Los valores completos (colores, gradientes, radios, ids de textura) están en `r
 | Una textura no se ve | El id puede requerir permisos de uso en tu experiencia. Cámbiala por otra del catálogo. |
 | La textura no se parece a lo esperado | El rol de cada textura se dedujo del nombre, el ScaleType y el uso, no de verlas una a una. Revisa la captura. |
 | Hay varios Studios abiertos | Claude pregunta cuál usar antes de modificar nada. |
+
+---
+
+## Contributors
+
+<p align="center">
+  <a href="https://github.com/kolioty/roblox-gui-kit/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=kolioty/roblox-gui-kit" alt="Contributors" />
+  </a>
+</p>
+
+¿Quieres ayudar? Las contribuciones son bienvenidas:
+
+1. Haz un **fork** del repo.
+2. Crea una rama: `git checkout -b mi-mejora`
+3. Haz tus cambios y un commit: `git commit -m "Describe el cambio"`
+4. Sube la rama: `git push origin mi-mejora`
+5. Abre un **Pull Request**.
+
+Ideas útiles: más recetas de componentes, texturas nuevas en el catálogo, correcciones a los valores medidos o capturas reales de GUIs hechas con la skill. Para reportar un fallo, abre un [issue](https://github.com/kolioty/roblox-gui-kit/issues).
 
 ---
 
