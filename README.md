@@ -1,41 +1,72 @@
-<div align="center">
+<h1 align="center">
+  <a href="https://github.com/kolioty/roblox-gui-kit">
+    <img src="docs/img/banner.svg" alt="SKILLS GUI KIT" width="100%"/>
+  </a>
+</h1>
 
-<img src="docs/img/banner.svg" alt="SKILLS GUI KIT" width="100%"/>
+<h4 align="center">Skill de Claude para crear interfaces de Roblox con un estilo consistente, hecha para <a href="https://claude.com/claude-code" target="_blank">Claude Code</a>.</h4>
 
-<br/>
+<p align="center">
+  <img src="docs/img/badges.svg" alt="Claude Skill · Roblox Studio MCP · Luau · by Pedry" width="640"/>
+</p>
 
-<img src="docs/img/badges.svg" alt="Claude Skill · Roblox Studio MCP · Luau · by Pedry" width="640"/>
+<p align="center">
+  <a href="https://github.com/kolioty/roblox-gui-kit/stargazers"><img src="https://img.shields.io/github/stars/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Stars"></a>
+  <a href="https://github.com/kolioty/roblox-gui-kit/forks"><img src="https://img.shields.io/github/forks/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Forks"></a>
+  <a href="https://github.com/kolioty/roblox-gui-kit/commits/main"><img src="https://img.shields.io/github/last-commit/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Último commit"></a>
+  <a href="https://github.com/kolioty/roblox-gui-kit"><img src="https://img.shields.io/github/repo-size/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Tamaño"></a>
+  <a href="https://github.com/kolioty/roblox-gui-kit/issues"><img src="https://img.shields.io/github/issues/kolioty/roblox-gui-kit?style=flat-square&color=333333&labelColor=111111" alt="Issues"></a>
+</p>
 
-</div>
+<br>
 
-<br/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/kolioty/roblox-gui-kit">
+        <img src="docs/img/terminal.svg" alt="Ejemplo de uso" width="500">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.star-history.com/#kolioty/roblox-gui-kit&Date">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=kolioty/roblox-gui-kit&type=date&theme=dark&legend=top-left" />
+          <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=kolioty/roblox-gui-kit&type=date&legend=top-left" />
+          <img alt="Star History Chart" src="https://api.star-history.com/image?repos=kolioty/roblox-gui-kit&type=date&legend=top-left" width="500" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Qué es
+<p align="center">
+  <a href="#instalación">Instalación</a> •
+  <a href="#cómo-funciona">Cómo funciona</a> •
+  <a href="#estilos">Estilos</a> •
+  <a href="#reglas-medidas">Reglas</a> •
+  <a href="#documentación">Documentación</a> •
+  <a href="#solución-de-problemas">Problemas</a> •
+  <a href="#créditos">Créditos</a>
+</p>
 
-<table>
+<p align="center">
+  roblox-gui-kit le enseña a Claude a construir GUIs de Roblox con las mismas fuentes, colores, texturas y tamaños de una librería de unas 150 GUIs de ejemplo. Los valores no están inventados: salen de medir esa librería.
+</p>
+
+<table align="center">
 <tr>
-<td valign="top">
-
-**roblox-gui-kit** es una *skill* para [Claude Code](https://claude.com/claude-code). Le enseña a Claude a construir interfaces de Roblox con el mismo estilo de una librería de unas 150 GUIs de ejemplo (`Workspace.guiskills`): mismas fuentes, mismos colores, mismas texturas y mismos tamaños.
-
-Nada está inventado. Los valores salen de **medir** esa librería.
-
-| Instancias analizadas | ScreenGuis | Texturas únicas | Packs de estilo |
-|:---:|:---:|:---:|:---:|
-| ~80.000 | 150 | 1.094 | 3 |
-
-</td>
-<td width="270" align="center" valign="middle">
-<img src="docs/img/manga.png" width="250" alt=""/>
-</td>
+<td align="center"><b>~80.000</b><br/><sub>instancias analizadas</sub></td>
+<td align="center"><b>150</b><br/><sub>ScreenGuis</sub></td>
+<td align="center"><b>1.094</b><br/><sub>texturas únicas</sub></td>
+<td align="center"><b>3</b><br/><sub>packs de estilo</sub></td>
 </tr>
 </table>
 
-<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
+---
 
 ## Instalación
 
-Necesitas [Claude Code](https://claude.com/claude-code) y [Git](https://git-scm.com/).
+Necesitas [Claude Code](https://claude.com/claude-code) y [Git](https://git-scm.com/). Un solo comando:
 
 **Windows (PowerShell)**
 ```powershell
@@ -47,23 +78,23 @@ git clone https://github.com/kolioty/roblox-gui-kit.git "$env:USERPROFILE\.claud
 git clone https://github.com/kolioty/roblox-gui-kit.git ~/.claude/skills/roblox-gui-kit
 ```
 
-Reinicia Claude Code. La skill se activa sola cuando pidas una GUI, botón, HUD, tienda o ventana de Roblox.
+Reinicia Claude Code. La skill se activa sola cuando pidas una GUI, botón, HUD, tienda o ventana de Roblox, sin comandos extra.
 
-Para actualizar: `git -C ~/.claude/skills/roblox-gui-kit pull`
+Para actualizar:
+```bash
+git -C ~/.claude/skills/roblox-gui-kit pull
+```
 
-<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
+### Primer uso
 
-## Estilos
+1. Abre Roblox Studio y conecta el **MCP de Studio** a Claude.
+2. Pídele algo en lenguaje normal:
 
-Tres estilos, todos medidos en la librería. No se mezclan en una misma pantalla.
+> *"Hazme una tienda con 3 botones de compra y un botón de cerrar"*
+> *"Crea un HUD con dinero y velocidad abajo a la izquierda"*
+> *"Copia la ventana de Settings pero en tonos azules"*
 
-| Estilo | Pack | Ideal para | Firma visual |
-|---|---|---|---|
-| **A · Chunky** (por defecto) | `guinew` | HUD, botones de acción | Gradiente vertical, trazo oscuro grueso, bevel |
-| **B · Glossy** | `guipackv4` | Tiendas, compras, premios | Textura con brillo y texto con sombra |
-| **C · Panel de studs** | `PACKGUIV7` | Ventanas, settings, listas | Fondo de patrón y doble borde |
-
-<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
+---
 
 ## Cómo funciona
 
@@ -80,6 +111,35 @@ flowchart LR
     F -- Todo bien --> G([GUI lista en tu juego])
 ```
 
+1. **Conecta** con el Studio correcto y confirma antes de tocar tu juego.
+2. **Busca** un ejemplo parecido en `Workspace.guiskills` y lo clona, para conservar las capas exactas.
+3. **Construye** con los helpers del builder si no hay ejemplo, aplicando los valores medidos.
+4. **Verifica** con una captura de pantalla y corrige lo que falle.
+
+Por dentro, el builder se usa así:
+
+```lua
+local GUI = ... -- assets/gui-builder.luau
+
+local sg  = GUI.screen("Shop", game.StarterGui, 10, true)
+local win = GUI.panel(sg, { Title = "Shop" })
+GUI.button(win, { Text = "Buy", Color = "Green", Icon = GUI.Tex.Cash })
+```
+
+---
+
+## Estilos
+
+Tres estilos, todos medidos en la librería. No se mezclan en una misma pantalla.
+
+| Estilo | Pack | Ideal para | Firma visual |
+|---|---|---|---|
+| **A · Chunky** (por defecto) | `guinew` | HUD, botones de acción | Gradiente vertical, trazo oscuro grueso, bevel |
+| **B · Glossy** | `guipackv4` | Tiendas, compras, premios | Textura con brillo y texto con sombra |
+| **C · Panel de studs** | `PACKGUIV7` | Ventanas, settings, listas | Fondo de patrón y doble borde |
+
+---
+
 ## Reglas medidas
 
 | Regla | Dato de la librería |
@@ -92,9 +152,9 @@ flowchart LR
 
 Los valores completos (colores, gradientes, radios, ids de textura) están en `references/`.
 
-<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
+---
 
-## Contenido
+## Documentación
 
 | | Archivo | Para qué sirve |
 |:---:|---|---|
@@ -105,32 +165,26 @@ Los valores completos (colores, gradientes, radios, ids de textura) están en `r
 | <img src="docs/img/folder-5.png" width="38" alt=""/> | `assets/gui-builder.luau` | Funciones para `execute_luau` |
 | <img src="docs/img/folder-6.png" width="38" alt=""/> | `assets/button-tween.client.luau` | Hover y press de botones |
 
-## Ejemplo
+---
 
-Con Roblox Studio abierto y el MCP conectado, dile a Claude:
-
-> *"Hazme una tienda con 3 botones de compra y un botón de cerrar"*
-> *"Crea un HUD con dinero y velocidad abajo a la izquierda"*
-> *"Copia la ventana de Settings pero en tonos azules"*
-
-Por dentro usa los helpers del builder:
-
-```lua
-local GUI = ... -- assets/gui-builder.luau
-
-local sg  = GUI.screen("Shop", game.StarterGui, 10, true)
-local win = GUI.panel(sg, { Title = "Shop" })
-GUI.button(win, { Text = "Buy", Color = "Green", Icon = GUI.Tex.Cash })
-```
-
-## Requisitos y límites
+## Requisitos
 
 - Roblox Studio abierto con el **MCP de Studio** conectado a Claude.
 - Para clonar ejemplos reales, tu lugar necesita la carpeta `Workspace.guiskills`. Sin ella, la skill usa los tokens y recetas de `references/`.
-- El rol de cada textura se dedujo del nombre, el ScaleType y el uso, no de verlas una a una. Revisa siempre la captura.
-- Los ids de textura son assets de Roblox y pueden necesitar permisos de uso en tu experiencia.
 
-<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
+## Solución de problemas
+
+| Problema | Qué hacer |
+|---|---|
+| La skill no se activa | Reinicia Claude Code y revisa que exista `~/.claude/skills/roblox-gui-kit/SKILL.md`. |
+| Claude no ve Roblox Studio | Comprueba que el MCP de Studio esté conectado y que Studio esté abierto. |
+| Una textura no se ve | El id puede requerir permisos de uso en tu experiencia. Cámbiala por otra del catálogo. |
+| La textura no se parece a lo esperado | El rol de cada textura se dedujo del nombre, el ScaleType y el uso, no de verlas una a una. Revisa la captura. |
+| Hay varios Studios abiertos | Claude pregunta cuál usar antes de modificar nada. |
+
+---
+
+## Créditos
 
 <table>
 <tr>
@@ -143,8 +197,9 @@ Si te sirve, deja una estrella al repo.
 <sub>Las ilustraciones de `docs/img` (manga, carpetas y figura) son arte de terceros tomado de Pinterest; no son mías ni del proyecto. Si eres el autor y quieres que se quite, abre un issue.</sub>
 
 </td>
-<td align="right" width="220">
-<img src="docs/img/figure.png" width="200" alt=""/>
+<td align="center" width="270">
+<img src="docs/img/manga.png" width="150" alt=""/>
+<img src="docs/img/figure.png" width="110" alt=""/>
 </td>
 </tr>
 </table>
