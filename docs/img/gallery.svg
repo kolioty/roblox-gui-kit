@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0714"/><stop offset="1" stop-color="#0a1426"/>
+      <stop offset="0" stop-color="#090909"/><stop offset="1" stop-color="#131313"/>
     </linearGradient>
-    <linearGradient id="gGreen" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#1DCB32"/><stop offset="1" stop-color="#A6FF00"/></linearGradient>
-    <linearGradient id="gBlue" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#007BFF"/><stop offset="1" stop-color="#00EAFF"/></linearGradient>
-    <linearGradient id="gPurple" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#BF00FF"/><stop offset="1" stop-color="#FF72FF"/></linearGradient>
-    <linearGradient id="gRed" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#BC0000"/><stop offset="1" stop-color="#FF6767"/></linearGradient>
-    <linearGradient id="gGold" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#FFAA00"/><stop offset="1" stop-color="#FFFF00"/></linearGradient>
-    <linearGradient id="gLime" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#00FF00"/><stop offset="0.5" stop-color="#AAFF00"/><stop offset="1" stop-color="#C8FF61"/></linearGradient>
-    <linearGradient id="gHead" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="0.53" stop-color="#5376AA"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#868686"/><stop offset="1" stop-color="#c7c7c7"/></linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#656565"/><stop offset="1" stop-color="#a6a6a6"/></linearGradient>
+    <linearGradient id="gPurple" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#565656"/><stop offset="1" stop-color="#acacac"/></linearGradient>
+    <linearGradient id="gRed" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#383838"/><stop offset="1" stop-color="#949494"/></linearGradient>
+    <linearGradient id="gGold" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#b0b0b0"/><stop offset="1" stop-color="#e2e2e2"/></linearGradient>
+    <linearGradient id="gLime" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#969696"/><stop offset="0.5" stop-color="#c9c9c9"/><stop offset="1" stop-color="#dddddd"/></linearGradient>
+    <linearGradient id="gHead" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="0.53" stop-color="#717171"/><stop offset="1" stop-color="#fff"/></linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <pattern id="studs" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="3" fill="#fff" fill-opacity="0.12"/></pattern>
-    <pattern id="studsC" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#323241"/><path d="M0 12 L12 0" stroke="#fff" stroke-opacity="0.07" stroke-width="2"/></pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="studsC" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#343434"/><path d="M0 12 L12 0" stroke="#fff" stroke-opacity="0.07" stroke-width="2"/></pattern>
+    <filter id="glow_unused" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       .t{font-family:'Segoe UI','Arial Black',Arial,sans-serif;font-weight:900;text-anchor:middle}
-      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-weight:700;text-anchor:middle;fill:#9fb4ff;letter-spacing:4px;font-size:15px}
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-weight:700;text-anchor:middle;fill:#b6b6b6;letter-spacing:4px;font-size:15px}
       .ttl{font-family:'Segoe UI',Arial,sans-serif;font-weight:800;text-anchor:middle;font-size:24px}
-      .stroke{stroke:#161A21;stroke-width:5;paint-order:stroke;fill:#fff}
+      .stroke{stroke:#1a1a1a;stroke-width:5;paint-order:stroke;fill:#fff}
     </style>
   </defs>
 
-  <rect width="1280" height="560" rx="22" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="1277" height="557" rx="21" fill="none" stroke="#00EAFF" stroke-opacity="0.45" stroke-width="3"/>
+  <rect width="1280" height="560" rx="14" fill="#000000"/>
+  <rect x="1.5" y="1.5" width="1277" height="557" rx="13" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"/>
 
   <!-- tarjetas -->
   <g>
-    <rect x="30"  y="30" width="390" height="500" rx="18" fill="#0e1430" stroke="#1DCB32" stroke-opacity="0.7" stroke-width="2.5"/>
-    <rect x="445" y="30" width="390" height="500" rx="18" fill="#0e1430" stroke="#FFAA00" stroke-opacity="0.7" stroke-width="2.5"/>
-    <rect x="860" y="30" width="390" height="500" rx="18" fill="#0e1430" stroke="#BF00FF" stroke-opacity="0.7" stroke-width="2.5"/>
+    <rect x="30"  y="30" width="390" height="500" rx="10" fill="#111111" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <rect x="445" y="30" width="390" height="500" rx="10" fill="#111111" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <rect x="860" y="30" width="390" height="500" rx="10" fill="#111111" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
   </g>
 
   <!-- ===== A · CHUNKY ===== -->
-  <text x="225" y="80" class="ttl" fill="#1DCB32">A · Chunky</text>
+  <text x="225" y="80" class="ttl" fill="#ffffff">A · Chunky</text>
   <text x="225" y="104" class="lbl">GUINEW</text>
   <g>
     <g transform="translate(70 135)">
-      <rect width="310" height="70" rx="4" fill="url(#gRed)" stroke="#2F0001" stroke-width="6"/>
+      <rect width="310" height="70" rx="4" fill="url(#gRed)" stroke="#0e0e0e" stroke-width="6"/>
       <rect width="310" height="70" rx="4" fill="url(#studs)"/>
       <rect x="3" y="3" width="304" height="64" rx="3" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="3"/>
-      <circle cx="40" cy="35" r="20" fill="#FFD36A" stroke="#161A21" stroke-width="4"/>
+      <circle cx="40" cy="35" r="20" fill="#d4d4d4" stroke="#1a1a1a" stroke-width="4"/>
       <text x="190" y="49" class="t stroke" font-size="38">DROP</text>
       <animateTransform attributeName="transform" type="translate" values="70 135;70 131;70 135" dur="3s" repeatCount="indefinite"/>
     </g>
     <g transform="translate(70 225)">
-      <rect width="310" height="70" rx="4" fill="url(#gGreen)" stroke="#07230a" stroke-width="6"/>
+      <rect width="310" height="70" rx="4" fill="url(#gGreen)" stroke="#181818" stroke-width="6"/>
       <rect width="310" height="70" rx="4" fill="url(#studs)"/>
       <rect x="3" y="3" width="304" height="64" rx="3" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="3"/>
       <text x="155" y="49" class="t stroke" font-size="38">BUY</text>
     </g>
     <g transform="translate(70 315)">
-      <rect width="310" height="70" rx="4" fill="url(#gBlue)" stroke="#001a40" stroke-width="6"/>
+      <rect width="310" height="70" rx="4" fill="url(#gBlue)" stroke="#171717" stroke-width="6"/>
       <rect width="310" height="70" rx="4" fill="url(#studs)"/>
       <rect x="3" y="3" width="304" height="64" rx="3" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="3"/>
       <text x="155" y="49" class="t stroke" font-size="38">AUTO</text>
     </g>
     <g transform="translate(70 405)">
-      <rect width="310" height="70" rx="4" fill="url(#gPurple)" stroke="#2a0040" stroke-width="6"/>
+      <rect width="310" height="70" rx="4" fill="url(#gPurple)" stroke="#141414" stroke-width="6"/>
       <rect width="310" height="70" rx="4" fill="url(#studs)"/>
       <rect x="3" y="3" width="304" height="64" rx="3" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="3"/>
       <text x="155" y="49" class="t stroke" font-size="38">REBIRTH</text>
@@ -66,16 +66,16 @@
   <text x="225" y="510" class="lbl" style="font-size:13px;letter-spacing:2px">GRADIENTE · TRAZO 4.5 · BEVEL · STUDS</text>
 
   <!-- ===== B · GLOSSY ===== -->
-  <text x="640" y="80" class="ttl" fill="#FFAA00">B · Glossy</text>
+  <text x="640" y="80" class="ttl" fill="#ffffff">B · Glossy</text>
   <text x="640" y="104" class="lbl">GUIPACKV4</text>
   <g>
-    <g transform="translate(500 140)" filter="url(#glow)">
+    <g transform="translate(500 140)">
       <rect width="280" height="95" rx="9" fill="url(#gLime)"/>
       <rect x="0" y="0" width="280" height="47" rx="9" fill="url(#shine)"/>
       <rect width="280" height="95" rx="9" fill="none" stroke="#000" stroke-width="5"/>
       <text x="140" y="68" class="t" font-size="44" fill="#000" stroke="#000" stroke-width="6">1M$</text>
       <text x="140" y="62" class="t" font-size="44" fill="#fff" stroke="#000" stroke-width="5" paint-order="stroke">1M$</text>
-      <circle cx="262" cy="14" r="20" fill="#FF0000" stroke="#550000" stroke-width="5"/>
+      <circle cx="262" cy="14" r="20" fill="#4c4c4c" stroke="#191919" stroke-width="5"/>
       <circle cx="262" cy="14" r="23" fill="none" stroke="#fff" stroke-width="3"/>
       <text x="262" y="24" class="t" font-size="26" fill="#fff" stroke="#000" stroke-width="4" paint-order="stroke">1</text>
     </g>
@@ -86,58 +86,58 @@
       <text x="140" y="64" class="t" font-size="44" fill="#fff" stroke="#000" stroke-width="5" paint-order="stroke">BUY ALL</text>
     </g>
     <g transform="translate(500 390)">
-      <rect width="280" height="95" rx="9" fill="#5A5A5A"/>
+      <rect width="280" height="95" rx="9" fill="#5a5a5a"/>
       <rect width="280" height="47" rx="9" fill="url(#shine)" opacity="0.5"/>
       <rect width="280" height="95" rx="9" fill="none" stroke="#000" stroke-width="5"/>
-      <rect x="116" y="30" width="48" height="40" rx="6" fill="#6E6E78" stroke="#000" stroke-width="4"/>
-      <path d="M124 30 V20 a16 16 0 0 1 32 0 V30" fill="none" stroke="#6E6E78" stroke-width="7"/>
+      <rect x="116" y="30" width="48" height="40" rx="6" fill="#6f6f6f" stroke="#000" stroke-width="4"/>
+      <path d="M124 30 V20 a16 16 0 0 1 32 0 V30" fill="none" stroke="#6f6f6f" stroke-width="7"/>
     </g>
   </g>
   <text x="640" y="510" class="lbl" style="font-size:13px;letter-spacing:2px">GLOW · TEXTO CON SOMBRA · BADGE</text>
 
   <!-- ===== C · PANEL ===== -->
-  <text x="1055" y="80" class="ttl" fill="#BF00FF">C · Panel de studs</text>
+  <text x="1055" y="80" class="ttl" fill="#ffffff">C · Panel de studs</text>
   <text x="1055" y="104" class="lbl">PACKGUIV7</text>
   <g transform="translate(895 130)">
     <rect width="320" height="360" rx="4" fill="url(#studsC)" stroke="#151515" stroke-width="8"/>
-    <rect x="4" y="4" width="312" height="352" fill="none" stroke="#52526B" stroke-width="3"/>
+    <rect x="4" y="4" width="312" height="352" fill="none" stroke="#555555" stroke-width="3"/>
     <rect x="4" y="4" width="312" height="52" fill="url(#gHead)" opacity="0.35"/>
     <rect x="4" y="4" width="312" height="52" fill="none" stroke="#151515" stroke-width="4"/>
-    <text x="22" y="46" class="t" font-size="30" text-anchor="start" style="text-anchor:start" fill="#000" stroke="#323241" stroke-width="5" dy="3">Settings</text>
+    <text x="22" y="46" class="t" font-size="30" text-anchor="start" style="text-anchor:start" fill="#000" stroke="#343434" stroke-width="5" dy="3">Settings</text>
     <text x="22" y="43" class="t" font-size="30" style="text-anchor:start" fill="#fff" stroke="#000" stroke-width="3" paint-order="stroke">Settings</text>
     <!-- cerrar -->
     <g transform="translate(282 -12)">
-      <rect width="44" height="44" fill="#FF1414" stroke="#000" stroke-width="3"/>
+      <rect width="44" height="44" fill="#5a5a5a" stroke="#000" stroke-width="3"/>
       <rect width="44" height="22" fill="url(#shine)" opacity="0.6"/>
-      <text x="22" y="33" class="t" font-size="30" fill="#fff" stroke="#4F0707" stroke-width="3" paint-order="stroke">X</text>
+      <text x="22" y="33" class="t" font-size="30" fill="#fff" stroke="#1d1d1d" stroke-width="3" paint-order="stroke">X</text>
     </g>
     <!-- filas -->
     <g>
-      <rect x="18" y="78" width="284" height="56" fill="#34435B" stroke="#151515" stroke-width="5"/>
-      <rect x="18" y="78" width="284" height="56" fill="none" stroke="#52526B" stroke-width="2"/>
+      <rect x="18" y="78" width="284" height="56" fill="#414141" stroke="#151515" stroke-width="5"/>
+      <rect x="18" y="78" width="284" height="56" fill="none" stroke="#555555" stroke-width="2"/>
       <text x="32" y="114" class="t" font-size="22" style="text-anchor:start" fill="#fff" stroke="#000" stroke-width="3" paint-order="stroke">Music</text>
-      <rect x="170" y="94" width="116" height="22" rx="3" fill="#1E2A39"/>
-      <rect x="170" y="94" width="78" height="22" rx="3" fill="#70FF18"><animate attributeName="width" values="78;104;40;78" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="170" y="94" width="116" height="22" rx="3" fill="#282828"/>
+      <rect x="170" y="94" width="78" height="22" rx="3" fill="#bababa"><animate attributeName="width" values="78;104;40;78" dur="6s" repeatCount="indefinite"/></rect>
     </g>
     <g>
-      <rect x="18" y="148" width="284" height="56" fill="#34435B" stroke="#151515" stroke-width="5"/>
-      <rect x="18" y="148" width="284" height="56" fill="none" stroke="#52526B" stroke-width="2"/>
+      <rect x="18" y="148" width="284" height="56" fill="#414141" stroke="#151515" stroke-width="5"/>
+      <rect x="18" y="148" width="284" height="56" fill="none" stroke="#555555" stroke-width="2"/>
       <text x="32" y="184" class="t" font-size="22" style="text-anchor:start" fill="#fff" stroke="#000" stroke-width="3" paint-order="stroke">SFX</text>
-      <rect x="170" y="164" width="116" height="22" rx="3" fill="#1E2A39"/>
-      <rect x="170" y="164" width="96" height="22" rx="3" fill="#70FF18"/>
+      <rect x="170" y="164" width="116" height="22" rx="3" fill="#282828"/>
+      <rect x="170" y="164" width="96" height="22" rx="3" fill="#bababa"/>
     </g>
     <g>
-      <rect x="18" y="218" width="284" height="56" fill="#34435B" stroke="#151515" stroke-width="5"/>
-      <rect x="18" y="218" width="284" height="56" fill="none" stroke="#52526B" stroke-width="2"/>
+      <rect x="18" y="218" width="284" height="56" fill="#414141" stroke="#151515" stroke-width="5"/>
+      <rect x="18" y="218" width="284" height="56" fill="none" stroke="#555555" stroke-width="2"/>
       <text x="32" y="254" class="t" font-size="22" style="text-anchor:start" fill="#fff" stroke="#000" stroke-width="3" paint-order="stroke">Pets</text>
-      <rect x="226" y="232" width="60" height="28" rx="14" fill="#1E2A39"/>
-      <circle cx="272" cy="246" r="11" fill="#70FF18"/>
+      <rect x="226" y="232" width="60" height="28" rx="14" fill="#282828"/>
+      <circle cx="272" cy="246" r="11" fill="#bababa"/>
     </g>
     <g>
-      <rect x="18" y="290" width="136" height="44" fill="#70FF18" stroke="#151515" stroke-width="4"/>
-      <text x="86" y="321" class="t" font-size="22" fill="#fff" stroke="#161A21" stroke-width="4" paint-order="stroke">Buttons</text>
-      <rect x="166" y="290" width="136" height="44" fill="#444456" stroke="#151515" stroke-width="4"/>
-      <text x="234" y="321" class="t" font-size="22" fill="#fff" stroke="#161A21" stroke-width="4" paint-order="stroke">Cursor</text>
+      <rect x="18" y="290" width="136" height="44" fill="#bababa" stroke="#151515" stroke-width="4"/>
+      <text x="86" y="321" class="t" font-size="22" fill="#fff" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">Buttons</text>
+      <rect x="166" y="290" width="136" height="44" fill="#464646" stroke="#151515" stroke-width="4"/>
+      <text x="234" y="321" class="t" font-size="22" fill="#fff" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">Cursor</text>
     </g>
   </g>
   <text x="1055" y="510" class="lbl" style="font-size:13px;letter-spacing:2px">PATRÓN · DOBLE BORDE · CABECERA</text>
