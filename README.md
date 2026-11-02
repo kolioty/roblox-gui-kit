@@ -1,13 +1,10 @@
 <div align="center">
 
-<img src="docs/img/hero.svg" alt="ROBLOX GUI KIT — by Pedry" width="100%"/>
+<img src="docs/img/banner.svg" alt="SKILLS GUI KIT" width="100%"/>
 
 <br/>
 
-![Claude Skill](https://img.shields.io/badge/Claude-Skill-111111?style=flat-square&logo=anthropic&logoColor=white&labelColor=333333)
-![Roblox Studio](https://img.shields.io/badge/Roblox-Studio%20MCP-111111?style=flat-square&logo=roblox&logoColor=white&labelColor=333333)
-![Luau](https://img.shields.io/badge/Luau-111111?style=flat-square&logo=lua&logoColor=white&labelColor=333333)
-![by Pedry](https://img.shields.io/badge/by-Pedry-ffffff?style=flat-square&labelColor=333333)
+<img src="docs/img/badges.svg" alt="Claude Skill · Roblox Studio MCP · Luau · by Pedry" width="560"/>
 
 </div>
 
@@ -27,7 +24,7 @@ Nada está inventado. Los valores salen de **medir** esa librería.
 
 <br clear="right"/>
 
-<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
 ## Instalación
 
@@ -47,12 +44,12 @@ Reinicia Claude Code. La skill se activa sola cuando pidas una GUI, botón, HUD,
 
 Para actualizar: `git -C ~/.claude/skills/roblox-gui-kit pull`
 
-<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
 ## Galería
 
 <div align="center">
-<img src="docs/img/gallery.svg" alt="Los tres estilos: Chunky, Glossy y Panel de studs" width="100%"/>
+<img src="docs/img/gallery-bw.svg" alt="Los tres estilos: Chunky, Glossy y Panel de studs" width="100%"/>
 <br/>
 <sub>Ilustración de los tres estilos dibujada con los trazos y capas medidos. No son capturas de Studio.</sub>
 </div>
@@ -65,7 +62,7 @@ Para actualizar: `git -C ~/.claude/skills/roblox-gui-kit pull`
 | **B · Glossy** | `guipackv4` | Tiendas, compras, premios | Textura con brillo y texto con sombra |
 | **C · Panel de studs** | `PACKGUIV7` | Ventanas, settings, listas | Fondo de patrón y doble borde |
 
-<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
 ## Cómo funciona
 
@@ -94,7 +91,7 @@ flowchart LR
 
 Los valores completos (colores, gradientes, radios, ids de textura) están en `references/`.
 
-<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
 ## Contenido
 
@@ -132,7 +129,7 @@ GUI.button(win, { Text = "Buy", Color = "Green", Icon = GUI.Tex.Cash })
 - El rol de cada textura se dedujo del nombre, el ScaleType y el uso, no de verlas una a una. Revisa siempre la captura.
 - Los ids de textura son assets de Roblox y pueden necesitar permisos de uso en tu experiencia.
 
-<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
 <table>
 <tr>
@@ -142,7 +139,7 @@ GUI.button(win, { Text = "Buy", Color = "Green", Icon = GUI.Tex.Cash })
 
 Si te sirve, deja una estrella al repo.
 
-<sub>Las ilustraciones de `docs/img` (manga, carpetas, figura y foto del banner) son arte de terceros tomado de Pinterest; no son mías ni del proyecto. Si eres el autor y quieres que se quite, abre un issue.</sub>
+<sub>Las ilustraciones de `docs/img` (manga, carpetas y figura) son arte de terceros tomado de Pinterest; no son mías ni del proyecto. Si eres el autor y quieres que se quite, abre un issue.</sub>
 
 </td>
 <td align="right" width="220">
