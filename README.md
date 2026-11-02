@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=210&section=header&text=roblox-gui-kit&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=GUIs%20de%20Roblox%20con%20estilo%2C%20en%20segundos&descAlignY=60&descSize=18" alt="roblox-gui-kit banner" width="100%"/>
+<img src="docs/img/hero.svg" alt="ROBLOX GUI KIT by Pedry" width="100%"/>
 
 <a href="https://github.com/kolioty/roblox-gui-kit">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=1DCB32&center=true&vCenter=true&width=640&lines=Skill+de+Claude+para+Roblox+Studio;Botones%2C+HUDs%2C+tiendas+y+ventanas;Mismo+estilo.+Mismas+texturas.+Cero+copiar%2Fpegar." alt="Typing SVG" />
@@ -16,9 +16,9 @@
 
 **Hecho por Pedry** 💜
 
-</div>
+<img src="docs/img/divider.svg" width="100%" alt=""/>
 
----
+</div>
 
 ## ✨ ¿Qué es?
 
@@ -34,7 +34,17 @@ No son valores inventados: salen de **medir** la librería real.
 
 </div>
 
----
+<div align="center">
+<img src="docs/img/divider.svg" width="100%" alt=""/>
+
+## 🖼️ Galería
+
+<img src="docs/img/gallery.svg" alt="Los 3 estilos: Chunky, Glossy y Panel de studs" width="100%"/>
+
+<sub>Ilustración original de los 3 estilos, dibujada a partir de los valores medidos (colores, trazos, capas). No son capturas de Studio.</sub>
+
+<img src="docs/img/divider.svg" width="100%" alt=""/>
+</div>
 
 ## 🚀 Instalación
 
@@ -63,7 +73,7 @@ Reinicia Claude Code y listo. La skill se activa sola cuando pidas una GUI, bot�
 git -C ~/.claude/skills/roblox-gui-kit pull
 ```
 
----
+<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
 
 ## 🧠 Cómo funciona
 
@@ -113,7 +123,7 @@ mindmap
 | **B · Glossy** | `guipackv4` | Tiendas, compras, premios | Textura con brillo y texto con sombra |
 | **C · Panel de studs** | `PACKGUIV7` | Ventanas, settings, listas | Fondo de patrón + doble borde |
 
----
+<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
 
 ## 🌈 Paleta de gradientes
 
@@ -146,13 +156,14 @@ pie showData title Tamaño en Scale vs Offset (guinew)
 - 🎯 **Botón** = fondo blanco + `UIGradient` a −90° + `UIStroke` Border + `Bevel` + `Studs`.
 - 🏷️ **Nombres consistentes**: `Title`, `Icon`, `Bevel`, `Studs`, `Outer`, `Close`, `ButtonTweenScale`.
 
----
+<div align="center"><img src="docs/img/divider.svg" width="100%" alt=""/></div>
 
 ## 📁 Contenido del repo
 
 ```text
 roblox-gui-kit/
 ├── SKILL.md                         ← flujo de trabajo de la skill
+├── docs/img/                        ← hero, galería y divisor (SVG originales)
 ├── references/
 │   ├── design-tokens.md             ← fuentes, colores, trazos, radios, gradientes
 │   ├── texture-catalog.md           ← ids de textura por rol (9-slice, tiles, glows, íconos)
@@ -202,6 +213,6 @@ GUI.button(win, { Text = "Buy", Color = "Green", Icon = GUI.Tex.Cash })
 
 ⭐ Si te sirve, dale una estrella al repo.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" width="100%" alt=""/>
+<img src="docs/img/divider.svg" width="100%" alt=""/>
 
 </div>
