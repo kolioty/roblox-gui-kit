@@ -1,20 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="52" viewBox="0 0 720 52">
-  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle">
-    <g transform="translate(24 8)">
-      <rect width="170" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/>
-      <text x="85" y="23" fill="#fff" textLength="130" lengthAdjust="spacing">CLAUDE SKILL</text>
-    </g>
-    <g transform="translate(208 8)">
-      <rect width="226" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/>
-      <text x="113" y="23" fill="#fff" textLength="186" lengthAdjust="spacing">ROBLOX STUDIO MCP</text>
-    </g>
-    <g transform="translate(448 8)">
-      <rect width="96" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/>
-      <text x="48" y="23" fill="#fff" textLength="52" lengthAdjust="spacing">LUAU</text>
-    </g>
-    <g transform="translate(558 8)">
-      <rect width="138" height="36" rx="6" fill="#fff"/>
-      <text x="69" y="23" fill="#000" textLength="98" lengthAdjust="spacing">BY PEDRY</text>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="52" viewBox="0 0 760 52">
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700">
+    <g transform="translate(14 8)"><rect width="186" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/><g transform="translate(23.0 18.0)" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><line x1="-8.00" y1="-0.00" x2="8.00" y2="0.00"/><line x1="-5.66" y1="-5.66" x2="5.66" y2="5.66"/><line x1="-0.00" y1="-8.00" x2="0.00" y2="8.00"/><line x1="5.66" y1="-5.66" x2="-5.66" y2="5.66"/></g><text x="42" y="23" fill="#fff" textLength="130" lengthAdjust="spacing">CLAUDE SKILL</text></g>
+    <g transform="translate(214 8)"><rect width="242" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/><g transform="translate(23.0 18.0) rotate(15)"><rect x="-7.5" y="-7.5" width="15" height="15" rx="2" fill="#fff"/><rect x="-2.6" y="-2.6" width="5.2" height="5.2" fill="#000"/></g><text x="42" y="23" fill="#fff" textLength="186" lengthAdjust="spacing">ROBLOX STUDIO MCP</text></g>
+    <g transform="translate(470 8)"><rect width="108" height="36" rx="6" fill="#000" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5"/><g transform="translate(23.0 18.0)"><circle cx="-1" cy="1" r="7" fill="#fff"/><circle cx="6" cy="-6.5" r="3.2" fill="#fff" stroke="#000" stroke-width="1.4"/></g><text x="42" y="23" fill="#fff" textLength="52" lengthAdjust="spacing">LUAU</text></g>
+    <g transform="translate(592 8)"><rect width="154" height="36" rx="6" fill="#fff"/><polygon points="23.00,9.00 25.23,14.93 31.56,15.22 26.61,19.17 28.29,25.28 23.00,21.80 17.71,25.28 19.39,19.17 14.44,15.22 20.77,14.93" fill="#000"/><text x="42" y="23" fill="#000" textLength="98" lengthAdjust="spacing">BY PEDRY</text></g>
   </g>
 </svg>

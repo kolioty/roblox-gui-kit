@@ -4,15 +4,17 @@
 
 <br/>
 
-<img src="docs/img/badges.svg" alt="Claude Skill · Roblox Studio MCP · Luau · by Pedry" width="560"/>
+<img src="docs/img/badges.svg" alt="Claude Skill · Roblox Studio MCP · Luau · by Pedry" width="640"/>
 
 </div>
 
 <br/>
 
-<img align="right" src="docs/img/manga.png" width="250" alt=""/>
-
 ## Qué es
+
+<table>
+<tr>
+<td valign="top">
 
 **roblox-gui-kit** es una *skill* para [Claude Code](https://claude.com/claude-code). Le enseña a Claude a construir interfaces de Roblox con el mismo estilo de una librería de unas 150 GUIs de ejemplo (`Workspace.guiskills`): mismas fuentes, mismos colores, mismas texturas y mismos tamaños.
 
@@ -22,7 +24,12 @@ Nada está inventado. Los valores salen de **medir** esa librería.
 |:---:|:---:|:---:|:---:|
 | ~80.000 | 150 | 1.094 | 3 |
 
-<br clear="right"/>
+</td>
+<td width="270" align="center" valign="middle">
+<img src="docs/img/manga.png" width="250" alt=""/>
+</td>
+</tr>
+</table>
 
 <div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
