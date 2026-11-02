@@ -53,15 +53,9 @@ Para actualizar: `git -C ~/.claude/skills/roblox-gui-kit pull`
 
 <div align="center"><img src="docs/img/line.svg" width="100%" alt=""/></div>
 
-## Galería
+## Estilos
 
-<div align="center">
-<img src="docs/img/gallery-bw.svg" alt="Los tres estilos: Chunky, Glossy y Panel de studs" width="100%"/>
-<br/>
-<sub>Ilustración de los tres estilos dibujada con los trazos y capas medidos. No son capturas de Studio.</sub>
-</div>
-
-<br/>
+Tres estilos, todos medidos en la librería. No se mezclan en una misma pantalla.
 
 | Estilo | Pack | Ideal para | Firma visual |
 |---|---|---|---|
